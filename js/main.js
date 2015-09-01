@@ -104,7 +104,7 @@ var storeDataForFirstStep = function (e) {
 
 		generateSecondStep();
 	} else {
-	  alert("Please, fill every form");
+	  alert("Please fill in all fields before submitting");
 	}
 	
 };
@@ -228,7 +228,7 @@ var storeDataForSecondStep = function () {
 	},2500)
 
 } else {
-	alert("Please, fill every form");
+	alert("Please fill in all fields before submitting");
 }
 
 	

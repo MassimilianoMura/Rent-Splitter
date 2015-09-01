@@ -11,9 +11,17 @@
 
 	<link rel="stylesheet" href="css/main.css">
 	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Chewy' rel='stylesheet' type='text/css'>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-61442075-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </head>
 <body data-spy="scroll" data-target="#navbar">
 
@@ -23,8 +31,8 @@
 			<h1 id="title">RENT SPLITTER</h1>
 		</div>
 		<nav id="navbar">
-			<a class="links-nav" href="#background1">How it works</a>
-			<a onClick="document.location.reload()" class="links-nav" href="#anchorLink">Calculator</a>
+			<a class="links-nav" href="#how-it-works">How it works</a>
+			<a onClick="document.location.reload()" class="links-nav" href="#calculator">Calculator</a>
 			
 		</nav>
 </header>
@@ -32,21 +40,23 @@
 
 
 <section id="background1">
+<div id="how-it-works"></div>
 <div id="invisibleDiv">
 </div>
 	<div class="general-width clearfix">
 		<div id="welcome">
-			This project has the purpose to help a friends' group who wants to share a house.</br> </br>
-			You will be able to calculate and split proportionally the rent without struggle, depending on the rooms’ and commons’ spaces dimension and number of people that are going to share the house.
+			Are you going to share a house?
+			No more struggle with Rent Splitter!</br></br>
+			You are able to calculate and split proportionally the rent depending on the rooms’ and commons’ spaces size, single and double rooms and number of people.
 		</div>
 	
 	</div>
 </section>
 
 <section id="small-section">
-	<div class="general-widht clearfix">
+	<div class="clearfix">
 		<div id="small-sentence">
-			All you need is just a measuring tape and a bit of patience to misure rooms and… that’s it!
+			All you need is just a measuring tape and a bit of patience to measure rooms and… that’s it!
 		</div>
 		
 	
@@ -54,7 +64,7 @@
 </section>
 
 <section id="background2">
-<div id="anchorLink"></div>
+<div id="calculator"></div>
 	<div class="general-width clearfix" id="adjust-padding-top">
 		
 		<div id="box-calculator" class="clearfix">
@@ -111,6 +121,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/0.5.0/sweet-alert.min.js"></script>
 
 <script src="js/main.js"></script>
+
+
 
 </body>
 </html>
