@@ -1,0 +1,50 @@
+
+/*------------ BUTTONS STYLE ------------*/
+.button{
+  margin-top: 15px;
+
+   text-decoration:none; text-align:center;
+   padding:11px 32px;
+   border:solid 1px #010b0f;
+   -webkit-border-radius:2px;
+   -moz-border-radius:2px;
+   border-radius: 2px;
+   font:11px Arial, Helvetica, sans-serif;
+   font-weight:bold;
+   color:#feffe5;
+   background-color:#ec612a;
+   background-image: -moz-linear-gradient(top, #ec612a 0%, #c47e23 100%);
+   background-image: -webkit-linear-gradient(top, #ec612a 0%, #c47e23 100%);
+   background-image: -o-linear-gradient(top, #ec612a 0%, #c47e23 100%);
+   background-image: -ms-linear-gradient(top, #ec612a 0% ,#c47e23 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c47e23', endColorstr='#c47e23',GradientType=0 );
+   background-image: linear-gradient(top, #ec612a 0% ,#c47e23 100%);
+   -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+   -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;
+   box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+
+  }
+
+ .button:hover {
+  margin-top: 15px;
+
+   padding:11px 32px;
+   border:none;
+   -webkit-border-radius:2px;
+   -moz-border-radius:2px;
+   border-radius: 2px;
+   font:11px Arial, Helvetica, sans-serif;
+   font-weight:bold;
+   color:#feffe5;
+   background-color:#ec612a;
+   background-image: -moz-linear-gradient(top, #ec612a 0%, #c47e23 100%);
+   background-image: -webkit-linear-gradient(top, #ec612a 0%, #c47e23 100%);
+   background-image: -o-linear-gradient(top, #ec612a 0%, #c47e23 100%);
+   background-image: -ms-linear-gradient(top, #ec612a 0% ,#c47e23 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c47e23', endColorstr='#c47e23',GradientType=0 );
+   background-image: linear-gradient(top, #ec612a 0% ,#c47e23 100%);
+   -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+   -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;
+   box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+
+ }
