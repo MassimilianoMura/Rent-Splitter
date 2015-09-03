@@ -51,6 +51,100 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+/* Box Model Hack */
+* {
+  -moz-box-sizing: border-box;
+  /* Firexfox */
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box;
+  /* IE */ }
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0; }
+
+/* general width of all the website*/
+.general-width {
+  width: 80%;
+  margin: auto; }
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: rgba(92, 184, 92, 0.6);
+  padding: 20px;
+  margin-bottom: 80px; }
+  header a:hover {
+    color: #337AB7;
+    text-decoration: underline; }
+  header a:active {
+    color: #f0ad4e;
+    text-decoration: underline; }
+
+header div div {
+  display: inline-block; }
+
+nav {
+  display: inline-block;
+  float: right; }
+
+.links-nav {
+  font-size: 1.7em;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  line-height: 3.1;
+  color: black; }
+
+#title {
+  padding: 20px 0; }
+
+#invisibleDiv {
+  height: 280px; }
+
+#welcome {
+  padding: 20px;
+  font-size: 2.6em;
+  color: white;
+  background-color: rgba(51, 122, 183, 0.5); }
+
+#small-sentence {
+  padding: 75px 150px;
+  font-size: 1.5em;
+  text-align: center; }
+
+#small-section {
+  background-color: rgba(92, 184, 92, 0.4);
+  height: 180px; }
+
+.h2-title-calculator {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 1.6em; }
+
+#adjust-padding-top {
+  padding-top: 260px; }
+
+.centerTexts {
+  text-align: center; }
+
+#result {
+  padding: 20px;
+  font-size: 1.2em; }
+  #result.hide-text {
+    color: rgba(92, 184, 92, 0); }
+
+footer {
+  height: 50px;
+  background-color: rgba(92, 184, 92, 0.6);
+  font-size: 0.9em; }
+
 /*------------ BUTTONS STYLE ------------*/
 .button {
   margin-top: 15px;
@@ -211,53 +305,6 @@ h1 {
 h2 {
   font-size: 2em; }
 
-.h2-title-calculator {
-  padding-top: 10px;
-  text-align: center;
-  font-size: 1.6em; }
-
-header div div {
-  display: inline-block; }
-
-nav {
-  display: inline-block;
-  float: right; }
-
-.links-nav {
-  font-size: 1.7em;
-  margin-left: 10px;
-  margin-right: 10px;
-  text-decoration: none;
-  line-height: 1.8;
-  color: black; }
-
-header {
-  position: fixed;
-  width: 100%;
-  background-color: rgba(92, 184, 92, 0.6);
-  padding: 20px;
-  margin-bottom: 80px; }
-  header a:hover {
-    color: #337AB7;
-    text-decoration: underline; }
-  header a:active {
-    color: #f0ad4e;
-    text-decoration: underline; }
-
-#invisibleDiv {
-  height: 280px; }
-
-#welcome {
-  padding: 20px;
-  font-size: 2.6em;
-  color: white;
-  background-color: rgba(51, 122, 183, 0.5); }
-
-#small-sentence {
-  padding: 75px 150px;
-  font-size: 1.5em;
-  text-align: center; }
-
 #background1 {
   background: url(../img/houses.jpg) no-repeat center top;
   width: 100%;
@@ -276,13 +323,6 @@ header {
   -o-background-size: cover;
   background-size: cover; }
 
-#small-section {
-  background-color: rgba(92, 184, 92, 0.4);
-  height: 180px; }
-
-#adjust-padding-top {
-  padding-top: 260px; }
-
 #box-calculator {
   font-size: 1.1em;
   padding: 40px 15px 20px 15px;
@@ -290,19 +330,7 @@ header {
   width: 680px;
   background: rgba(243, 248, 185, 0.5); }
 
-.centerTexts {
-  text-align: center; }
-
-#result {
-  padding: 20px;
-  font-size: 1.2em; }
-  #result.hide-text {
-    color: rgba(92, 184, 92, 0); }
-
 footer {
-  height: 50px;
-  background-color: rgba(92, 184, 92, 0.6);
-  font-size: 0.9em;
   padding-top: 20px; }
 
 /* -------------- MEDIA QUERIES -----------------*/

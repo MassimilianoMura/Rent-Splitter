@@ -1,5 +1,10 @@
 @import "partials/general";
 @import "partials/reset";
+@import "partials/header";
+@import "partials/top-section";
+@import "partials/middle-section";
+@import "partials/lower-section";
+@import "partials/footer";
 @import "partials/buttons";
 @import "partials/mediaqueries";
 
@@ -28,64 +33,59 @@ h2 {
   font-size: 2em;
 }
 
-.h2-title-calculator {
-  padding-top: 10px;
-  text-align: center;
-  font-size: 1.6em;
-}
+// .h2-title-calculator {
+//   padding-top: 10px;
+//   text-align: center;
+//   font-size: 1.6em;
+// }
 
-header div div {
-  display: inline-block;
-}
+// header div div {
+//   display: inline-block;
+// }
 
-nav {
-  display: inline-block;
-  float: right;
-}
+// nav {
+//   display: inline-block;
+//   float: right;
+// }
 
-.links-nav {
-  font-size: 1.7em;
-  margin-left: 10px;
-  margin-right: 10px;
-  text-decoration: none;
-  line-height: 1.8;
-  color: black;
-}
+// .links-nav {
+//   font-size: 1.7em;
+//   margin-left: 10px;
+//   margin-right: 10px;
+//   text-decoration: none;
+//   line-height: 1.8;
+//   color: black;
+// }
 
-header {
-  position: fixed;
-  width: 100%;
-  background-color: rgba(92, 184, 92, 0.6);
-  padding: 20px;
-  margin-bottom: 80px;
-  a {
-    &:hover {
-      color: #337AB7;
-      text-decoration: underline;
-    }
-    &:active {
-      color: #f0ad4e;
-      text-decoration: underline;
-    }
-  }
-}
+// header {
+//   position: fixed;
+//   width: 100%;
+//   background-color: rgba(92, 184, 92, 0.6);
+//   padding: 20px;
+//   margin-bottom: 80px;
+//   a {
+//     &:hover {
+//       color: #337AB7;
+//       text-decoration: underline;
+//     }
+//     &:active {
+//       color: #f0ad4e;
+//       text-decoration: underline;
+//     }
+//   }
+// }
 
-#invisibleDiv {
-  height: 280px;
-}
+// #invisibleDiv {
+//   height: 280px;
+// }
 
-#welcome {
-  padding: 20px;
-  font-size: 2.6em;
-  color: white;
-  background-color: rgba(51, 122, 183, 0.5);
-}
+// #welcome {
+//   padding: 20px;
+//   font-size: 2.6em;
+//   color: white;
+//   background-color: rgba(51, 122, 183, 0.5);
+// }
 
-#small-sentence {
-  padding: 75px 150px;
-  font-size: 1.5em;
-  text-align: center;
-}
 
 #background1 {
   background: url(../img/houses.jpg) no-repeat center top;
@@ -107,14 +107,14 @@ header {
   background-size: cover;
 }
 
-#small-section {
-  background-color: rgba(92, 184, 92, 0.4);
-  height: 180px;
-}
+// #small-section {
+//   background-color: rgba(92, 184, 92, 0.4);
+//   height: 180px;
+// }
 
-#adjust-padding-top {
-  padding-top: 260px;
-}
+// #adjust-padding-top {
+//   padding-top: 260px;
+// }
 
 #box-calculator {
   font-size: 1.1em;
@@ -124,22 +124,22 @@ header {
   background: rgba(243, 248, 185, 0.5);
 }
 
-.centerTexts {
-  text-align: center;
-}
+// .centerTexts {
+//   text-align: center;
+// }
 
-#result {
-  &.hide-text {
-    color: rgba(92, 184, 92, 0);
-  }
-  padding: 20px;
-  font-size: 1.2em;
-}
+// #result {
+//   &.hide-text {
+//     color: rgba(92, 184, 92, 0);
+//   }
+//   padding: 20px;
+//   font-size: 1.2em;
+// }
 
 footer {
-  height: 50px;
-  background-color: rgba(92, 184, 92, 0.6);
-  font-size: 0.9em;
+//   height: 50px;
+//   background-color: rgba(92, 184, 92, 0.6);
+//   font-size: 0.9em;
   padding-top: 20px;
 }
 

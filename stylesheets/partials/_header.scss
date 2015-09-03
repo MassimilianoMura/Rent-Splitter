@@ -1,0 +1,41 @@
+@import "partials/general";
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: rgba(92, 184, 92, 0.6);
+  padding: 20px;
+  margin-bottom: 80px;
+  a {
+    &:hover {
+      color: #337AB7;
+      text-decoration: underline;
+    }
+    &:active {
+      color: #f0ad4e;
+      text-decoration: underline;
+    }
+  }
+}
+
+header div div {
+  display: inline-block;
+}
+
+nav {
+  display: inline-block;
+  float: right;
+}
+
+.links-nav {
+  font-size: 1.7em;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  line-height: 3.1;
+  color: black;
+}
+
+#title {
+  padding: 20px 0;
+}

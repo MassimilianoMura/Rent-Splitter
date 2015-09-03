@@ -1,0 +1,29 @@
+.h2-title-calculator {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 1.6em;
+}
+
+#adjust-padding-top {
+  padding-top: 260px;
+}
+
+// #box-calculator {
+//   font-size: 1.1em;
+//   padding: 40px 15px 20px 15px;
+//   margin: auto;
+//   width: 680px;
+//   background: rgba(243, 248, 185, 0.5);
+// }
+
+.centerTexts {
+  text-align: center;
+}
+
+#result {
+  &.hide-text {
+    color: rgba(92, 184, 92, 0);
+  }
+  padding: 20px;
+  font-size: 1.2em;
+}
