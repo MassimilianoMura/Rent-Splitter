@@ -2,7 +2,7 @@
 
 [![Code Climate](https://codeclimate.com/github/MassimilianoMura/Rent-Splitter/badges/gpa.svg)](https://codeclimate.com/github/MassimilianoMura/Rent-Splitter)
 
-###This is my final project for Front End Web Development course, General Assembly school, my first small step learning coding: a html, css and javascript project.
+####This is my final project for Front End Web Development course, General Assembly school, my first small step learning coding: a html, css and javascript project.
 
 The goal of this project was to create a Javascript calculator that allows a group of friends to split the rent in the most proportional way when they are going to share a house.
 
