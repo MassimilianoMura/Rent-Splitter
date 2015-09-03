@@ -1,3 +1,5 @@
+@import 'modules/colors';
+
 .h2-title-calculator {
   padding-top: 10px;
   text-align: center;
@@ -22,7 +24,7 @@
 
 #result {
   &.hide-text {
-    color: rgba(92, 184, 92, 0);
+    color: rgba($light-green, 0);
   }
   padding: 20px;
   font-size: 1.2em;

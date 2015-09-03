@@ -1,10 +1,8 @@
-
 /* -------------- MEDIA QUERIES -----------------*/
 
 @media screen and (max-width: 768px) {
   .general-width {
     width: 90%;
-    margin: auto;
   }
   h1 {
     font-size: 2.5em;
@@ -14,16 +12,13 @@
   }
   .h2-title-calculator {
     padding-top: 10px;
-    text-align: center;
     font-size: 1.5em;
   }
   .links-nav {
     font-size: 1.4em;
     margin-left: 8px;
     margin-right: 8px;
-    text-decoration: none;
     line-height: 1.8;
-    color: black;
   }
   #invisibleDiv {
     height: 250px;
@@ -31,18 +26,14 @@
   #welcome {
     padding: 15px;
     font-size: 2em;
-    color: white;
-    background-color: rgba(51, 122, 183, 0.5);
   }
   #small-section {
     font-size: 0.8em;
-    background-color: rgba(92, 184, 92, 0.4);
     height: 150px;
   }
   #small-sentence {
     padding: 50px 110px;
     font-size: 1.3em;
-    text-align: center;
   }
   #adjust-padding-top {
     padding-top: 220px;
@@ -60,16 +51,13 @@
   }
   .h2-title-calculator {
     padding-top: 10px;
-    text-align: center;
     font-size: 1.2em;
   }
   .links-nav {
     font-size: 1.1em;
     margin-left: 8px;
     margin-right: 8px;
-    text-decoration: none;
     line-height: 1.6;
-    color: black;
   }
   #invisibleDiv {
     height: 130px;
@@ -77,18 +65,14 @@
   #welcome {
     padding: 15px;
     font-size: 1.3em;
-    color: white;
-    background-color: rgba(51, 122, 183, 0.5);
   }
   #small-section {
     font-size: 0.7em;
-    background-color: rgba(92, 184, 92, 0.4);
     height: 80px;
   }
   #small-sentence {
     padding: 28px 70px;
     font-size: 1.4em;
-    text-align: center;
   }
   #adjust-padding-top {
     padding-top: 90px;
@@ -96,13 +80,10 @@
   #box-calculator {
     font-size: 0.8em;
     padding: 6px;
-    margin: auto;
     width: 560px;
-    background: rgba(243, 248, 185, 0.5);
   }
   footer {
     height: 30px;
-    background-color: rgba(92, 184, 92, 0.6);
     font-size: 0.6em;
     padding-top: 9px;
   }
@@ -112,7 +93,6 @@
 @media screen and (max-width: 580px) {
   .general-width {
     width: 95%;
-    margin: auto;
   }
   h1 {
     font-size: 1.7em;
@@ -122,16 +102,13 @@
   }
   .h2-title-calculator {
     padding-top: 10px;
-    text-align: center;
     font-size: 1.2em;
   }
   .links-nav {
     font-size: 1.1em;
     margin-left: 8px;
     margin-right: 8px;
-    text-decoration: none;
     line-height: 1.6;
-    color: black;
   }
   #invisibleDiv {
     height: 120px;
@@ -139,18 +116,14 @@
   #welcome {
     padding: 15px;
     font-size: 1.2em;
-    color: white;
-    background-color: rgba(51, 122, 183, 0.5);
   }
   #small-section {
     font-size: 0.6em;
-    background-color: rgba(92, 184, 92, 0.4);
     height: 80px;
   }
   #small-sentence {
     padding: 24px 40px;
     font-size: 1.3em;
-    text-align: center;
   }
   #adjust-padding-top {
     padding-top: 80px;
@@ -158,9 +131,7 @@
   #box-calculator {
     font-size: 0.7em;
     padding: 5px;
-    margin: auto;
     width: 460px;
-    background: rgba(243, 248, 185, 0.5);
   }
 }
 
@@ -174,16 +145,13 @@
   }
   .h2-title-calculator {
     padding-top: 10px;
-    text-align: center;
     font-size: 1.4em;
   }
   .links-nav {
     font-size: 0.9em;
     margin-left: 8px;
     margin-right: 8px;
-    text-decoration: none;
     line-height: 1.6;
-    color: black;
     float: left;
   }
   #welcome {
@@ -194,15 +162,13 @@
   }
   #small-section {
     font-size: 0.6em;
-    background-color: rgba(92, 184, 92, 0.4);
+    background-color: rgba($light-green, 0.4);
     height: 80px;
   }
   #box-calculator {
     font-size: 0.5em;
     padding: 3px;
-    margin: auto;
     width: 380px;
-    background: rgba(243, 248, 185, 0.5);
   }
   #adjust-padding-top {
     padding-top: 40px;
@@ -223,16 +189,13 @@
   }
   .h2-title-calculator {
     padding-top: 7px;
-    text-align: center;
     font-size: 1.1em;
   }
   .links-nav {
     font-size: 0.8em;
     margin-left: 8px;
     margin-right: 8px;
-    text-decoration: none;
     line-height: 1.8;
-    color: black;
   }
   #invisibleDiv {
     height: 100px;
@@ -240,18 +203,14 @@
   #welcome {
     padding: 15px;
     font-size: 1.2em;
-    color: white;
-    background-color: rgba(51, 122, 183, 0.5);
   }
   #small-section {
     font-size: 0.6em;
-    background-color: rgba(92, 184, 92, 0.4);
     height: 80px;
   }
   #small-sentence {
     padding: 24px 40px;
     font-size: 1.3em;
-    text-align: center;
   }
   #adjust-padding-top {
     padding-top: 80px;
@@ -259,9 +218,7 @@
   #box-calculator {
     font-size: 0.6em;
     padding: 5px;
-    margin: auto;
     width: 300px;
-    background: rgba(243, 248, 185, 0.5);
   }
 }
 

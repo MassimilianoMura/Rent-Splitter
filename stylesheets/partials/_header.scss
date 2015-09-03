@@ -1,7 +1,9 @@
+@import 'modules/colors';
+
 header {
   position: fixed;
   width: 100%;
-  background-color: rgba(92, 184, 92, 0.6);
+  background-color: rgba($light-green, 0.6);
   padding: 20px;
   margin-bottom: 80px;
   a {

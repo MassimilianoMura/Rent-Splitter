@@ -1,3 +1,4 @@
+@import 'modules/colors';
 
 #small-sentence {
   padding: 75px 150px;
@@ -6,6 +7,6 @@
 }
 
 #small-section {
-  background-color: rgba(92, 184, 92, 0.4);
+  background-color: rgba($light-green, 0.4);
   height: 180px;
 }

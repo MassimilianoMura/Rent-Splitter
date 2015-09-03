@@ -210,81 +210,105 @@ footer {
   #background1 {
     background: url(../img/houses-small.jpg) no-repeat center top;
     width: 100%;
-    height: 350px; }
+    height: 350px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
   #background2 {
     background: url(../img/maths-small.jpg) no-repeat center top;
     width: 100%;
-    height: 400px; } }
+    height: 400px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; } }
 
 /*iphone4 and iphone5 lanscape*/
 @media screen and (max-width: 580px) {
   #background1 {
     background: url(../img/houses-small.jpg) no-repeat center top;
     width: 100%;
-    height: 350px; }
+    height: 350px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
   #background2 {
     background: url(../img/maths-small.jpg) no-repeat center top;
     width: 100%;
-    height: 400px; } }
+    height: 400px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; } }
 
 /*iphone6, 6plus and others big screen smarthphones portrait*/
 @media screen and (max-width: 430px) {
   #background1 {
     background: url(../img/houses-small.jpg) no-repeat center top;
     width: 100%;
-    height: 350px; }
+    height: 350px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
   #background2 {
     background: url(../img/maths-small.jpg) no-repeat center top;
     width: 100%;
-    height: 400px; } }
+    height: 400px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; } }
 
 /*iphone4 samsS4 googNex4 and others portrait*/
 @media screen and (max-width: 390px) {
   #background1 {
     background: url(../img/houses-small.jpg) no-repeat center top;
     width: 100%;
-    height: 350px; }
+    height: 350px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
   #background2 {
     background: url(../img/maths-small.jpg) no-repeat center top;
     width: 100%;
-    height: 400px; } }
+    height: 400px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; } }
 
 /* ----------- END MEDIA QUERIES IMAGES BACKGROUND --------------*/
 /* -------------- MEDIA QUERIES -----------------*/
 @media screen and (max-width: 768px) {
   .general-width {
-    width: 90%;
-    margin: auto; }
+    width: 90%; }
   h1 {
     font-size: 2.5em; }
   h2 {
     font-size: 1.5em; }
   .h2-title-calculator {
     padding-top: 10px;
-    text-align: center;
     font-size: 1.5em; }
   .links-nav {
     font-size: 1.4em;
     margin-left: 8px;
     margin-right: 8px;
-    text-decoration: none;
-    line-height: 1.8;
-    color: black; }
+    line-height: 1.8; }
   #invisibleDiv {
     height: 250px; }
   #welcome {
     padding: 15px;
-    font-size: 2em;
-    color: white;
-    background-color: rgba(51, 122, 183, 0.5); }
+    font-size: 2em; }
   #small-section {
     font-size: 0.8em;
-    background-color: rgba(92, 184, 92, 0.4);
     height: 150px; }
   #small-sentence {
     padding: 50px 110px;
-    font-size: 1.3em;
-    text-align: center; }
+    font-size: 1.3em; }
   #adjust-padding-top {
     padding-top: 220px; } }
 
@@ -296,87 +320,67 @@ footer {
     font-size: 1em; }
   .h2-title-calculator {
     padding-top: 10px;
-    text-align: center;
     font-size: 1.2em; }
   .links-nav {
     font-size: 1.1em;
     margin-left: 8px;
     margin-right: 8px;
-    text-decoration: none;
-    line-height: 1.6;
-    color: black; }
+    line-height: 1.6; }
   #invisibleDiv {
     height: 130px; }
   #welcome {
     padding: 15px;
-    font-size: 1.3em;
-    color: white;
-    background-color: rgba(51, 122, 183, 0.5); }
+    font-size: 1.3em; }
   #small-section {
     font-size: 0.7em;
-    background-color: rgba(92, 184, 92, 0.4);
     height: 80px; }
   #small-sentence {
     padding: 28px 70px;
-    font-size: 1.4em;
-    text-align: center; }
+    font-size: 1.4em; }
   #adjust-padding-top {
     padding-top: 90px; }
   #box-calculator {
     font-size: 0.8em;
     padding: 6px;
-    margin: auto;
-    width: 560px;
-    background: rgba(243, 248, 185, 0.5); }
+    width: 560px; }
   footer {
     height: 30px;
-    background-color: rgba(92, 184, 92, 0.6);
     font-size: 0.6em;
     padding-top: 9px; } }
 
 /*iphone4 and iphone5 lanscape*/
 @media screen and (max-width: 580px) {
   .general-width {
-    width: 95%;
-    margin: auto; }
+    width: 95%; }
   h1 {
     font-size: 1.7em; }
   h2 {
     font-size: 1em; }
   .h2-title-calculator {
     padding-top: 10px;
-    text-align: center;
     font-size: 1.2em; }
   .links-nav {
     font-size: 1.1em;
     margin-left: 8px;
     margin-right: 8px;
-    text-decoration: none;
-    line-height: 1.6;
-    color: black; }
+    line-height: 1.6; }
   #invisibleDiv {
     height: 120px; }
   #welcome {
     padding: 15px;
-    font-size: 1.2em;
-    color: white;
-    background-color: rgba(51, 122, 183, 0.5); }
+    font-size: 1.2em; }
   #small-section {
     font-size: 0.6em;
-    background-color: rgba(92, 184, 92, 0.4);
     height: 80px; }
   #small-sentence {
     padding: 24px 40px;
-    font-size: 1.3em;
-    text-align: center; }
+    font-size: 1.3em; }
   #adjust-padding-top {
     padding-top: 80px; }
   #box-calculator {
     font-size: 0.7em;
     padding: 5px;
-    margin: auto;
-    width: 460px;
-    background: rgba(243, 248, 185, 0.5); } }
+    width: 460px; } }
 
 /*iphone6, 6plus and others big screen smarthphones portrait*/
 @media screen and (max-width: 430px) {
@@ -386,15 +390,12 @@ footer {
     font-size: 1em; }
   .h2-title-calculator {
     padding-top: 10px;
-    text-align: center;
     font-size: 1.4em; }
   .links-nav {
     font-size: 0.9em;
     margin-left: 8px;
     margin-right: 8px;
-    text-decoration: none;
     line-height: 1.6;
-    color: black;
     float: left; }
   #welcome {
     padding: 15px;
@@ -408,9 +409,7 @@ footer {
   #box-calculator {
     font-size: 0.5em;
     padding: 3px;
-    margin: auto;
-    width: 380px;
-    background: rgba(243, 248, 185, 0.5); }
+    width: 380px; }
   #adjust-padding-top {
     padding-top: 40px; } }
 
@@ -425,38 +424,29 @@ footer {
     font-size: 0.8em; }
   .h2-title-calculator {
     padding-top: 7px;
-    text-align: center;
     font-size: 1.1em; }
   .links-nav {
     font-size: 0.8em;
     margin-left: 8px;
     margin-right: 8px;
-    text-decoration: none;
-    line-height: 1.8;
-    color: black; }
+    line-height: 1.8; }
   #invisibleDiv {
     height: 100px; }
   #welcome {
     padding: 15px;
-    font-size: 1.2em;
-    color: white;
-    background-color: rgba(51, 122, 183, 0.5); }
+    font-size: 1.2em; }
   #small-section {
     font-size: 0.6em;
-    background-color: rgba(92, 184, 92, 0.4);
     height: 80px; }
   #small-sentence {
     padding: 24px 40px;
-    font-size: 1.3em;
-    text-align: center; }
+    font-size: 1.3em; }
   #adjust-padding-top {
     padding-top: 80px; }
   #box-calculator {
     font-size: 0.6em;
     padding: 5px;
-    margin: auto;
-    width: 300px;
-    background: rgba(243, 248, 185, 0.5); } }
+    width: 300px; } }
 
 @media screen and (max-width: 480px) {
   .button {

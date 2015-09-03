@@ -2,125 +2,109 @@
 <html>
 <head>
 	<title>Rent Splitter</title>
-
 	<meta charset="UTF-8">
-
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/0.5.0/sweet-alert.css">
-
 	<link rel="stylesheet" href="css/main.css">
 	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-61442075-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	  ga('create', 'UA-61442075-1', 'auto');
+	  ga('send', 'pageview');
+	</script>
 </head>
+
 <body data-spy="scroll" data-target="#navbar">
 
-<header class="clearfix">
-	<div class="general-width clearfix">
-		<div>
-			<h1 id="title">RENT SPLITTER</h1>
+	<header class="clearfix">
+		<div class="general-width clearfix">
+			<div>
+				<h1 id="title">RENT SPLITTER</h1>
+			</div>
+			<nav id="navbar">
+				<a class="links-nav" href="#how-it-works">How it works</a>
+				<a onClick="document.location.reload()" class="links-nav" href="#calculator">Calculator</a>
+			</nav>
+	</header>
+
+
+
+	<section id="background1">
+		<div id="how-it-works"></div>
+		<div id="invisibleDiv">
 		</div>
-		<nav id="navbar">
-			<a class="links-nav" href="#how-it-works">How it works</a>
-			<a onClick="document.location.reload()" class="links-nav" href="#calculator">Calculator</a>
-
-		</nav>
-</header>
-
-
-
-<section id="background1">
-<div id="how-it-works"></div>
-<div id="invisibleDiv">
-</div>
-	<div class="general-width clearfix">
-		<div id="welcome">
-			Are you going to share a house?
-			No more struggle with Rent Splitter!</br></br>
-			You are able to calculate and split proportionally the rent depending on the rooms’ and commons’ spaces size, single and double rooms and number of people.
-		</div>
-
-	</div>
-</section>
-
-<section id="small-section">
-	<div class="clearfix">
-		<div id="small-sentence">
-			All you need is just a measuring tape and a bit of patience to measure rooms and… that’s it!
-		</div>
-
-
-	</div>
-</section>
-
-<section id="background2">
-<div id="calculator"></div>
-	<div class="general-width clearfix" id="adjust-padding-top">
-
-		<div id="box-calculator" class="clearfix">
-			<h2 class="h2-title-calculator"><strong>CALCULATOR</strong></h2></br></br>
-			<form class="centerTexts" id="first-step">
-				<label for="totalRent">Insert the total rent £ </label>
-				<input onkeypress="onlyNumbers(event)" name="totalRent" id="totalRent" class="chekFull" type="number" min="1" max="99999" required></br></br>
-
-				<label for="spaces">Insert the square feet/mq commons' space total </label>
-				<input onkeypress="onlyNumbers(event)" name="spaces" id="spaces" class="chekFull" type="number" min="1" max="999" required></br></br>
-
-				<label for="selectNumber">Select the rooms' number </label>
-				<select id="numbRooms" type="number" name="selectNumber" required>
-					<option value="1">1</option>
-					<option value="2">2</option>
-					<option value="3">3</option>
-					<option value="4">4</option>
-					<option value="5">5</option>
-					<option value="6">6</option>
-					<option value="7">7</option>
-					<option value="8">8</option>
-					<option value="9">9</option>
-					<option value="10">10</option>
-				</select></br></br>
-
-				<button class="button" id="firstButton" class="">SUBMIT FIRST STEP</button>
-
-				</form>
-
-				<form id="second-step" class="hide centerTexts">
-					<button class="button" id="secondButton" >SUBMIT ROOMS</button>
-
-				</form>
-
 			<div class="general-width clearfix">
-				<div id="result" class=""></div>
+				<div id="welcome">
+					Are you going to share a house?
+					No more struggle with Rent Splitter!</br></br>
+					You are able to calculate and split proportionally the rent depending on the rooms’ and commons’ spaces size, single and double rooms and number of people.
+				</div>
+			</div>
+	</section>
+
+	<section id="small-section">
+		<div class="clearfix">
+			<div id="small-sentence">
+				All you need is just a measuring tape and a bit of patience to measure rooms and… that’s it!
 			</div>
 		</div>
+	</section>
 
-	</div>
+	<section id="background2">
+		<div id="calculator"></div>
+			<div class="general-width clearfix" id="adjust-padding-top">
 
-</section>
+				<div id="box-calculator" class="clearfix">
+					<h2 class="h2-title-calculator"><strong>CALCULATOR</strong></h2></br></br>
+					<form class="centerTexts" id="first-step">
+						<label for="totalRent">Insert the total rent £ </label>
+						<input onkeypress="onlyNumbers(event)" name="totalRent" id="totalRent" class="chekFull" type="number" min="1" max="99999" required></br></br>
 
-<footer >
-	<div class="general-width">
-		<p>© 2015 Rent Splitter.  All Rights reserved.  A project by Massimiliano Mura</p>
-	</div>
+						<label for="spaces">Insert the square feet/mq commons' space total </label>
+						<input onkeypress="onlyNumbers(event)" name="spaces" id="spaces" class="chekFull" type="number" min="1" max="999" required></br></br>
 
-</footer>
+						<label for="selectNumber">Select the rooms' number </label>
+						<select id="numbRooms" type="number" name="selectNumber" required>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10">10</option>
+						</select></br></br>
 
+						<button class="button" id="firstButton" class="">SUBMIT FIRST STEP</button>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+						</form>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/0.5.0/sweet-alert.min.js"></script>
+						<form id="second-step" class="hide centerTexts">
+							<button class="button" id="secondButton" >SUBMIT ROOMS</button>
+						</form>
 
-<script src="js/main.js"></script>
+					<div class="general-width clearfix">
+						<div id="result" class=""></div>
+					</div>
+				</div>
 
+			</div>
+	</section>
 
+	<footer >
+		<div class="general-width">
+			<p>© 2015 Rent Splitter.  All Rights reserved.  A project by Massimiliano Mura</p>
+		</div>
+	</footer>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/0.5.0/sweet-alert.min.js"></script>
+	<script src="js/main.js"></script>
 
 </body>
 </html>
