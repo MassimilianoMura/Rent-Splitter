@@ -1,0 +1,82 @@
+
+
+#background1 {
+  background: url(../img/houses.jpg) no-repeat center top;
+  width: 100%;
+  height: 900px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#background2 {
+  background: url(../img/background-maths.jpg) no-repeat center top;
+  width: 100%;
+  height: 900px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* -------------- MEDIA QUERIES IMAGES BACKGROUND -----------------*/
+
+/*iphone6, 6plus and others big screen landscape*/
+
+@media screen and (max-width: 730px) {
+  #background1 {
+    background: url(../img/houses-small.jpg) no-repeat center top;
+    width: 100%;
+    height: 350px;
+  }
+  #background2 {
+    background: url(../img/maths-small.jpg) no-repeat center top;
+    width: 100%;
+    height: 400px;
+  }
+}
+
+/*iphone4 and iphone5 lanscape*/
+@media screen and (max-width: 580px) {
+  #background1 {
+    background: url(../img/houses-small.jpg) no-repeat center top;
+    width: 100%;
+    height: 350px;
+  }
+  #background2 {
+    background: url(../img/maths-small.jpg) no-repeat center top;
+    width: 100%;
+    height: 400px;
+  }
+}
+
+/*iphone6, 6plus and others big screen smarthphones portrait*/
+@media screen and (max-width: 430px) {
+  #background1 {
+    background: url(../img/houses-small.jpg) no-repeat center top;
+    width: 100%;
+    height: 350px;
+  }
+  #background2 {
+    background: url(../img/maths-small.jpg) no-repeat center top;
+    width: 100%;
+    height: 400px;
+  }
+}
+
+/*iphone4 samsS4 googNex4 and others portrait*/
+@media screen and (max-width: 390px) {
+  #background1 {
+    background: url(../img/houses-small.jpg) no-repeat center top;
+    width: 100%;
+    height: 350px;
+  }
+  #background2 {
+    background: url(../img/maths-small.jpg) no-repeat center top;
+    width: 100%;
+    height: 400px;
+  }
+}
+
+/* ----------- END MEDIA QUERIES IMAGES BACKGROUND --------------*/
