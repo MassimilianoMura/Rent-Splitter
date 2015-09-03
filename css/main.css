@@ -71,19 +71,15 @@ header {
   background-color: rgba(92, 184, 92, 0.6);
   padding: 20px;
   margin-bottom: 80px; }
-  header a:hover {
-    color: #337AB7;
-    text-decoration: underline; }
-  header a:active {
-    color: #f0ad4e;
-    text-decoration: underline; }
-
-header div div {
-  display: inline-block; }
-
-nav {
-  display: inline-block;
-  float: right; }
+  header nav {
+    display: inline-block;
+    float: right; }
+    header nav a:hover {
+      color: #337AB7;
+      text-decoration: underline; }
+    header nav a:active {
+      color: #f0ad4e;
+      text-decoration: underline; }
 
 .links-nav {
   font-size: 1.7em;
@@ -92,6 +88,9 @@ nav {
   text-decoration: none;
   line-height: 1.7;
   color: black; }
+
+.title-div {
+  display: inline-block; }
 
 #invisibleDiv {
   height: 280px; }
@@ -146,11 +145,11 @@ footer {
   margin-top: 15px;
   text-decoration: none;
   text-align: center;
-  padding: 11px 32px;
-  border: solid 1px #010b0f;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
+  padding: 11px 18px;
+  border: none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
   font: 11px Arial, Helvetica, sans-serif;
   font-weight: bold;
   color: #feffe5;
@@ -159,19 +158,19 @@ footer {
   background-image: -webkit-linear-gradient(top, #ec612a 0%, #c47e23 100%);
   background-image: -o-linear-gradient(top, #ec612a 0%, #c47e23 100%);
   background-image: -ms-linear-gradient(top, #ec612a 0%, #c47e23 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c47e23', endColorstr='#c47e23',GradientType=0 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9da9ad', endColorstr='#9da9ad',GradientType=0 );
   background-image: linear-gradient(top, #ec612a 0%, #c47e23 100%);
-  -webkit-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
-  -moz-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
-  box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; }
+  -webkit-box-shadow: -3px 2px 6px #bababa;
+  -moz-box-shadow: -3px 2px 6px #bababa;
+  box-shadow: -3px 2px 6px #bababa; }
 
 .button:hover {
   margin-top: 15px;
-  padding: 11px 32px;
+  padding: 11px 18px;
   border: none;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
   font: 11px Arial, Helvetica, sans-serif;
   font-weight: bold;
   color: #feffe5;
@@ -180,11 +179,11 @@ footer {
   background-image: -webkit-linear-gradient(top, #ec612a 0%, #c47e23 100%);
   background-image: -o-linear-gradient(top, #ec612a 0%, #c47e23 100%);
   background-image: -ms-linear-gradient(top, #ec612a 0%, #c47e23 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c47e23', endColorstr='#c47e23',GradientType=0 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9da9ad', endColorstr='#9da9ad',GradientType=0 );
   background-image: linear-gradient(top, #ec612a 0%, #c47e23 100%);
-  -webkit-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
-  -moz-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
-  box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; }
+  -webkit-box-shadow: 0px 0px 6px #bababa, inset 0px 0px 1px #ffffff;
+  -moz-box-shadow: 0px 0px 6px #bababa, inset 0px 0px 1px #ffffff;
+  box-shadow: 0px 0px 6px #bababa, inset 0px 0px 1px #ffffff; }
 
 #background1 {
   background: url(../img/houses.jpg) no-repeat center top;
@@ -382,6 +381,14 @@ footer {
     padding: 5px;
     width: 460px; } }
 
+@media screen and (max-width: 480px) {
+  .button {
+    font-size: 9px;
+    margin-top: 5px; }
+    .button:hover {
+      font-size: 9px;
+      margin-top: 5px; } }
+
 /*iphone6, 6plus and others big screen smarthphones portrait*/
 @media screen and (max-width: 430px) {
   h1 {
@@ -399,12 +406,9 @@ footer {
     float: left; }
   #welcome {
     padding: 15px;
-    font-size: 1.1em;
-    color: white;
-    background-color: rgba(51, 122, 183, 0.5); }
+    font-size: 1.1em; }
   #small-section {
     font-size: 0.6em;
-    background-color: rgba(92, 184, 92, 0.4);
     height: 80px; }
   #box-calculator {
     font-size: 0.5em;
@@ -447,13 +451,5 @@ footer {
     font-size: 0.6em;
     padding: 5px;
     width: 300px; } }
-
-@media screen and (max-width: 480px) {
-  .button {
-    font-size: 9px;
-    margin-top: 5px; }
-    .button:hover {
-      font-size: 9px;
-      margin-top: 5px; } }
 
 /* ----------- END MEDIA QUERIES --------------*/

@@ -135,6 +135,17 @@
   }
 }
 
+@media screen and (max-width: 480px) {
+  .button {
+    font-size: 9px;
+    margin-top: 5px;
+    &:hover {
+      font-size: 9px;
+      margin-top: 5px;
+    }
+  }
+}
+
 /*iphone6, 6plus and others big screen smarthphones portrait*/
 @media screen and (max-width: 430px) {
   h1 {
@@ -157,12 +168,9 @@
   #welcome {
     padding: 15px;
     font-size: 1.1em;
-    color: white;
-    background-color: rgba(51, 122, 183, 0.5);
   }
   #small-section {
     font-size: 0.6em;
-    background-color: rgba($light-green, 0.4);
     height: 80px;
   }
   #box-calculator {
@@ -219,17 +227,6 @@
     font-size: 0.6em;
     padding: 5px;
     width: 300px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .button {
-    font-size: 9px;
-    margin-top: 5px;
-    &:hover {
-      font-size: 9px;
-      margin-top: 5px;
-    }
   }
 }
 

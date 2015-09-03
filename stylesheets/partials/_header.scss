@@ -6,25 +6,20 @@ header {
   background-color: rgba($light-green, 0.6);
   padding: 20px;
   margin-bottom: 80px;
-  a {
-    &:hover {
-      color: #337AB7;
-      text-decoration: underline;
+  nav {
+    display: inline-block;
+    float: right;
+    a {
+      &:hover {
+        color: #337AB7;
+        text-decoration: underline;
     }
-    &:active {
-      color: #f0ad4e;
-      text-decoration: underline;
+      &:active {
+        color: #f0ad4e;
+        text-decoration: underline;
+      }
     }
   }
-}
-
-header div div {
-  display: inline-block;
-}
-
-nav {
-  display: inline-block;
-  float: right;
 }
 
 .links-nav {
@@ -34,4 +29,8 @@ nav {
   text-decoration: none;
   line-height: 1.7;
   color: black;
+}
+
+.title-div {
+  display: inline-block;
 }
