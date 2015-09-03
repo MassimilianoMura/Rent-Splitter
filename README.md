@@ -8,6 +8,6 @@ The goal of this project was to create a Javascript calculator that allows a gro
 
 Working on this project a learnt a lot about javascript, css and responsive design using media queries; After my Makers Academy experience, I recently added Sass on top, in order to refactor a bit the css.
 
-I'm also going to add all tests asap, with my new test skills that I learn at Makers Academy (this is a old project)
+I'm also going to add all tests asap, thanks to my new test skills that I learnt at Makers Academy (this is a old project)
 
 You can see the website here: http://rentsplitter.kissr.com/
