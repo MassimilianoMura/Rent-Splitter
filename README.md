@@ -1,8 +1,8 @@
 # Rent Splitter
 
-http://rentsplitter.kissr.com/
-
 [![Code Climate](https://codeclimate.com/github/MassimilianoMura/Rent-Splitter/badges/gpa.svg)](https://codeclimate.com/github/MassimilianoMura/Rent-Splitter)
+
+Demo here: http://rentsplitter.kissr.com/
 
 ####This is my final project for Front End Web Development course, General Assembly school, my first small step learning coding: a html, css and javascript project.
 
